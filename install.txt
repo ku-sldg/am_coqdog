@@ -1,0 +1,7 @@
+Installation steps (if I haven't missed anything):
+1. Replace the CoqDog_Team.py file in the root of your CoqDog repo with the modified one
+2. Clear the contents of the uploaded_dir folder in your CoqDog repo
+3. Add a new empty folder titled "external" to this uploaded_dir folder
+4. Replace the paths in "send-proof-request.sh" and "repair.py":
+    - The location of the root of your CoqDog repo
+    - The location of the root of your theorem demo that is being appraised

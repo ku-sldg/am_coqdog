@@ -1,0 +1,8 @@
+```coq
+Example Veval_iftrue :
+  Veval (vif (value vtrue) (value vfalse) (value vtrue)) (value vfalse).
+
+Proof.
+  apply eval_iftrue.
+Qed.
+```
